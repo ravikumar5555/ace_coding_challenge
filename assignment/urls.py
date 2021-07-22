@@ -20,5 +20,5 @@ from transaction.urls import transaction_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('transaction/', include(transaction_urls)),
+    path('', include(transaction_urls)),
 ]
